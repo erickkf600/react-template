@@ -1,9 +1,9 @@
-import React from 'react'
-import Template from './Template'
+import React, { FC } from 'react'
+import HomeView from './home.view'
 import './home.scss'
 
-const Home = () => {
-    return <Template />
+const Home: FC = () => {
+    return <HomeView />
 }
 
 export default Home
